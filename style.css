@@ -40,7 +40,7 @@ nav {
 
 }
 
-li {
+nav li {
     font-size:15px;
     display:flex;
 }
@@ -65,7 +65,7 @@ li {
 #header{
     display:flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-around;
     border-bottom:solid 7px #f5f5f7;
     align-items: center;
     font-family:'Montserrat',fantasy,sans-serif;
@@ -78,13 +78,14 @@ li {
 
 a{
     color:black;
+    text-decoration:none;
 }
 nav a:hover{
     color:#79c9a2;
     border-bottom:solid 3px #79c9a2;
 }
 
-img{
+.mugshot{
     border:0;
     margin:20px;
     width:70%;
@@ -99,25 +100,81 @@ img{
     color:white;
     display:flex;
     justify-content: space-around;
+    margin-bottom:50px;
+    margin-left:50px;
+    margin-right:50px;
+    padding-bottom:50px;
+    padding-left:30px;
+    padding-right:30px;
+
     }
 #contact a{
     color:white;
     text-decoration: none;
 }
 #contact_header{
-    font-size:60px;
+    font-size:70px;
     text-align:center;
     background-color:#3879ba;
     font-family:'mukta',fantasy,sans-serif;
     color:white;
+    padding:70px;
+    padding-top:120px;
+    margin-top:60px;
+    margin-left:50px;
+    margin-right:50px;
+
 }
-div img{
-    width:20px;
+#resume{
+    display:flex;
+    justify-content: center;
+    background-color:#3879ba;
+    padding:10px;
 }
+#resume img{
+    width:700px;
+    padding-right:10px;
+    padding-bottom: 70px;
+    padding-left:10px;
+
+}
+#download{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family:'mukta',fantasy,sans-serif;
+    font-size:25px;
+    list-style: none;
+    padding:40px;
+    background-color:#3879ba;
+    margin:0;
+}
+#download a{
+    color:white;
+
+}
+
+#download li a:hover{
+    text-decoration: underline;
+}
+#contact div img{
+    width:30%;
+    padding:50px;
+}
+
 .contact_info{
-    font-size:30px;
-    margin-bottom:30px;
+    font-size:25px;
+    margin-bottom:70px;
 }
+#about-me{
+    display:flex;
+    justify-content: space-around;
+}
+
+#self-intro{
+    align-self: center;
+}
+
 footer {
     text-align:center;
     padding:10px;
