@@ -44,14 +44,13 @@ nav {
 li {
     font-size:15px;
     display:flex;
-    color:black;
-
 }
 
 .menu{
     text-decoration:none;
     border-bottom:solid 3px white;
     padding:20px;
+    color:black;
 
 }
 #name{
@@ -71,12 +70,12 @@ li {
     align-items: center;
     font-family:'Montserrat',fantasy,sans-serif;
     font-weight:bold;
-}
-
-a:visited{
     color:black;
 }
 
+a{
+    color:black;
+}
 nav a:hover{
     color:#79c9a2;
     border-bottom:solid 3px #79c9a2;
@@ -95,7 +94,7 @@ section{
     background:rgb(227, 168, 100);
 }
 
-@media only screen (max-width:700px){
+@media  (max-width:700px){
 #header{
     flex-direction: column;
 }
