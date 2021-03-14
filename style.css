@@ -191,4 +191,8 @@ footer {
 #nav{
     flex-direction: column;
 }
+#about-me #resume #resume1{
+    width:100%;
+}
+
 }
