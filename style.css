@@ -191,7 +191,7 @@ footer {
 #nav{
     flex-direction: column;
 }
-#about-me #resume #resume1{
+.mugshot #rm{
     width:30px;
 }
 
