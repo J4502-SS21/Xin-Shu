@@ -62,6 +62,8 @@ nav li {
 
 
 }
+
+
 #header{
     display:flex;
     flex-direction:row;
@@ -131,7 +133,8 @@ nav a:hover{
     background-color:#3879ba;
     padding:10px;
 }
-#resume img{
+
+.rm{
     width:700px;
     padding-right:10px;
     padding-bottom: 70px;
@@ -157,7 +160,7 @@ nav a:hover{
 #download li a:hover{
     text-decoration: underline;
 }
-#contact div img{
+.icon{
     width:30%;
     padding:50px;
 }
@@ -166,7 +169,8 @@ nav a:hover{
     font-size:25px;
     margin-bottom:70px;
 }
-#about-me{
+
+#about_me{
     display:flex;
     justify-content: space-around;
 }
@@ -188,13 +192,31 @@ footer {
 #header{
     flex-direction: column;
 }
+
 #nav{
     flex-direction: column;
 }
+
+#about_me {
+    display:flex;
+    flex-direction: row;
+}
+
 .mugshot{
-    width:30%;
+    width:50%;
 }
-#rm{
-    width:30%;
+
+.rm{
+    width:50%;
 }
+
+#contact{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.icon{
+    width:70px;
+}
+
 }
