@@ -191,8 +191,12 @@ footer {
 #nav{
     flex-direction: column;
 }
-.mugshot #rm{
-    width:30px;
+.mugshot{
+    width:30%;
 }
+#rm{
+    width:30%;
+}
+
 
 }
