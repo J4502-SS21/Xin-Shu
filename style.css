@@ -206,7 +206,7 @@ footer {
 
 @media  (max-width:750px){
     #header{
-        justify-content: center;
+        flex-direction:column;
     }
 
     #menu_trigger {
@@ -219,9 +219,6 @@ footer {
     #menu_nav{
         display:none;
         flex-direction: column;
-    }
-    .mugshot{
-        width:50%;
     }
 
     .rm{
