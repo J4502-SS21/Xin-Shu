@@ -31,7 +31,7 @@ p{
 nav {
 }
 
-#nav {
+#menu_nav {
     list-style-type:none;
     display:flex;
     justify-content: flex-end;
@@ -40,12 +40,16 @@ nav {
 
 }
 
+#menu_trigger {
+    display:none;
+}
+
 nav li {
     font-size:15px;
     display:flex;
 }
 
-.menu{
+.menu {
     text-decoration:none;
     border-bottom:solid 3px white;
     padding:20px;
@@ -53,16 +57,26 @@ nav li {
     margin:3px;
 
 }
-#name{
+
+#name {
     text-decoration:none;
     border-bottom:solid 3px white;
     padding:10px;
     font-size:25px;
     margin-left:10px;
-
-
 }
 
+#name2 {
+    display:none;
+    text-decoration:none;
+    border-bottom:solid 3px white;
+    padding:10px;
+    font-size:25px;
+    margin-left:10px;
+    justify-content: center;
+    font-family:'Montserrat',fantasy,sans-serif;
+    font-weight:bold;
+}
 
 #header{
     display:flex;
@@ -180,6 +194,7 @@ nav a:hover{
     align-self: center;
 }
 
+
 footer {
     text-align:center;
     padding:10px;
@@ -190,34 +205,36 @@ footer {
 }
 
 @media  (max-width:750px){
-#header{
-    flex-direction: column;
-}
+    #header{
+        justify-content: center;
+    }
 
-#nav{
-    flex-direction: column;
-}
+    #menu_trigger {
+        display:block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
 
-#about_me {
-    display:flex;
-    flex-direction: row;
-}
+    #menu_nav{
+        display:none;
+        flex-direction: column;
+    }
+    .mugshot{
+        width:50%;
+    }
 
-.mugshot{
-    width:50%;
-}
+    .rm{
+        width:50%;
+    }
 
-.rm{
-    width:50%;
-}
-
-#contact{
-    display:flex;
-    justify-content: space-around;
-    flex-direction: column;
-}
-.icon{
-    width:70px;
-}
+    #contact{
+        display:flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .icon{
+        width:70px;
+    }
 
 }
